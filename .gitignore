@@ -1,2 +1,6 @@
 .DS_Store
 *.pyc
+*.log
+*.logs
+*.db
+*.sqlite
