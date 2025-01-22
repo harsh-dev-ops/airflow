@@ -17,8 +17,8 @@ def get_age(ti):
     ti.xcom_push(key='age', value=24)
 
 with DAG(
-    dag_id='python_dag_with_xcoms_v1',
-    start_date=datetime.now(),
+    dag_id='python_dag_with_xcoms_v3',
+    start_date=datetime(2025, 1, 20, 3),
     schedule='@daily',
 ) as dag:
     
